@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge"><title>DiDidiBlog</title>
+    
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+
+
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans" rel="stylesheet"><link rel="stylesheet" type="text/css" href="/css/style.6fd7fa42c7b7fe49cfeceeed650d33cb8d1cdbfe842e514a22e57a6b712729aa.css" integrity="sha256-b9f6Qse3/knP7O7tZQ0zy40c2/6ELlFKIuV6a3EnKao=">
+
+<link rel="stylesheet" type="text/css" href="/css/icons.f72c0103ff9598115ab2a76351494b950570479ce3f1795fec13fc62e4185dcf.css" integrity="sha256-9ywBA/&#43;VmBFasqdjUUlLlQVwR5zj8Xlf7BP8YuQYXc8=">
+<link rel="stylesheet" type="text/css" href="/css/refresh.ef82d48cf737ddc0770af07211f85001c2de3a262912386d649440991762f70b.css" integrity="sha256-74LUjPc33cB3CvByEfhQAcLeOiYpEjhtZJRAmRdi9ws=">
+<link rel="stylesheet" type="text/css" href="/css/devicon.min.149016fbf45c8bc157d6f55ce3ee875feaa3f90446bf7d151fbc16a9f21a8859.css" integrity="sha256-FJAW&#43;/Rci8FX1vVc4&#43;6HX&#43;qj&#43;QRGv30VH7wWqfIaiFk=">
+<link rel="stylesheet" type="text/css" href="/css/syntax.cc53abf1c6137b34c6b83b46af680dc18aa9c70501922c71eaf2e249dfa6ca92.css" integrity="sha256-zFOr8cYTezTGuDtGr2gNwYqpxwUBkixx6vLiSd&#43;mypI=">
+
+  </head>
+  <body>
+     
+
+    <div id="preloader">
+      <div id="status"></div>
+    </div><nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+
+      
+      
+      
+      <a class="navbar-item">
+        <div class="menu-icon-wrapper left-menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+        <div class="navbar-item left-menu-icon-wrapper">
+          
+        </div>
+      </a>
+
+      <div class="navbar-item is-expanded"></div>
+      <a class="navbar-item is-hidden-desktop">  
+        <div data-target="navbar-menu" class="navbar-item right-menu-icon-wrapper is-hidden-desktop">
+          
+        </div>
+        <div data-target="navbar-menu" class="menu-icon-wrapper right-menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+    </div>
+
+    
+
+    <div id="navbar-menu" class="navbar-menu is-static">
+      
+      <div class="navbar-end">
+        <a href="/n%C3%A4hen/" class="navbar-item is-secondary">Nähen</a><a href="/schule/" class="navbar-item is-secondary">Schule</a><a href="/sonstiges/" class="navbar-item is-secondary">Sonstiges</a><a href="/spiele/" class="navbar-item is-secondary">Spiele</a></div>
+    </div>
+
+
+
+
+  </div>
+</nav>
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+      <div class="navbar-brand">
+  
+        
+        
+        
+        <a class="navbar-item">
+          <div class="menu-icon-wrapper left-menu-icon-wrapper" style="visibility: visible;">
+            <svg width="1000px" height="1000px">
+              <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+              <path class="path2" d="M 300 500 L 700 500"></path>
+              <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+            </svg>
+            <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+          </div>
+          <div class="navbar-item left-menu-icon-wrapper">
+            
+          </div>
+        </a>
+  
+        <div class="navbar-item is-expanded"></div>
+        <a class="navbar-item is-hidden-desktop">  
+          <div data-target="cloned-navbar-menu" class="navbar-item right-menu-icon-wrapper is-hidden-desktop">
+            
+          </div>
+          <div data-target="cloned-navbar-menu" class="menu-icon-wrapper right-menu-icon-wrapper" style="visibility: visible;">
+            <svg width="1000px" height="1000px">
+              <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+              <path class="path2" d="M 300 500 L 700 500"></path>
+              <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+            </svg>
+            <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+          </div>
+        </a>
+      </div>
+  
+      
+  
+      <div id="cloned-navbar-menu" class="navbar-menu is-static">
+        <div class="navbar-end">
+          <a href="/n%C3%A4hen/" class="navbar-item is-secondary">Nähen</a><a href="/schule/" class="navbar-item is-secondary">Schule</a><a href="/sonstiges/" class="navbar-item is-secondary">Sonstiges</a><a href="/spiele/" class="navbar-item is-secondary">Spiele</a></div>
+      </div>
+  
+  
+  
+  
+    </div>
+  </nav>
+<section class="section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title is-2 section-title">3D Catan</h1>
+        <h5 class="subtitle is-5 is-muted"></h5>
+        <div class="divider"></div>
+        
+        <section class="section content has-text-justified">
+          <p>Wenn man mal wieder keine Freunde treffen darf, nicht in den Sportverein kann und wegen Elternzeit auch nicht arbeiten muss, habe ich hier eine passende Beschäftigung! mich hat dieses &ldquo;kleine Projekt&rdquo; nun eine Woche lang fast täglich begleitet und daher freue ich mich umso mehr es nun voller stolz präsentieren zu können. Mein 3D-Catan für bis zu 6 Spieler!</p>
+<p><img src="images/Allgemeines/8klein-3.jpg" alt="Übersicht"></p>
+<p><img src="images/Allgemeines/8klein-5.jpg" alt="Seitansicht"></p>
+<p><img src="images/Allgemeines/7klein-12.jpg" alt="Hafen"></p>
+<h3 id="das-rohmaterial">Das Rohmaterial</h3>
+<p>Als Rohmaterial habe ich Holzzuschnitte für die Sechsecke (8cm) der Felder und die Zahlenchips (2 cm) verwendet. Diese habe ich bei der Firma Bütic GmbH bestellt. Ursprünglich wollte ich Catan nur für 4 Spieler und ohne Wasser herstellen in der Hoffnung gleich 2 Spiele herstellen zu können, wenn ich je 50 Sechsecke und Kreisplättchen bestelle. Die Zuschnitte sind perfekt eben, gut bemal- und brennba.r</p>
+<p><img src="images/Allgemeines/klein.jpg" alt="Ohne was"></p>
+<h3 id="lehmfelder">Lehmfelder</h3>
+<p>Für die Lehmfelder habe ich zunächt Strukturpaste aufgetragen und anschließend angemalt.</p>
+<p><img src="images/Lehm/Lehm1.jpg" alt="Lehm"></p>
+<p>Ürsprünglich hatte ich überlegt auch Lehmsteine aus Fimo auf die Felder zu kleben, habe mich aber dagegen entschieden. Nur drei der Steine wurden für den Lehmhafen verwendet.</p>
+<p><img src="images/Lehm/Lehm2.jpg" alt="Lehm2"></p>
+<p><img src="images/Lehm/klein-15.jpg" alt="seit"></p>
+<p><img src="images/Lehm/klein-25.jpg" alt="oben"></p>
+<h4 id="holz">Holz</h4>
+<p>Das Holz war wohl am meisten arbeit, da ich zunächst mal Bäume basteln musste. Dies habe ich auf zwei verschiedene Varianten getan.</p>
+<p>Zum einen habe ich diese getrockneten Pflanzen mit Leim bestrichen und in Grasstreu getunkt</p>
+<p><img src="images/Holz/3klein-6.jpg" alt="Kraut"></p>
+<p><img src="images/Holz/klein-0.jpg" alt="bAUM"></p>
+<p>Als zweite Variante habe ich Zahnstocher mit Holzstreu ummantelt und Moos darauf geklebt</p>
+<p><img src="images/Holz/Stamm.jpg" alt="Holz"></p>
+<p><img src="images/Holz/3klein-13.jpg" alt="Moos"></p>
+<p><img src="images/Holz/klein-4.jpg" alt="Baum"></p>
+<p>Die Holzplatten wurden erst bemalt, dann mit Holzstreu ein kleiner Weg aufgestreut und mit dunklem Grün umrandet. Danach wurden die Bäume aufgeklebt.</p>
+<p><img src="images/Holz/Grundfl%C3%A4che.jpg" alt="Grundfläche"></p>
+<p><img src="images/Holz/4klein-3.jpg" alt="Baum"></p>
+<p>Die Kle</p>
+<p><img src="images/Holz/4klein-15.jpg" alt="Holzscheit"></p>
+<p><img src="images/Holz/klein-18.jpg" alt="Alle Bäume"></p>
+<p><img src="images/Holz/klein-21.jpg" alt="Sicht von oben"></p>
+<h4 id="erz">Erz</h4>
+<p>Für das Erz bin ich spazieren gegangen und habe ein paar passende Steine gesam</p>
+<p><img src="images/Erz/3klein-9.jpg" alt="Steine roh"></p>
+<p><img src="images/Erz/3klein-12.jpg" alt="geklebt"></p>
+<p>Die Ritzen wurden mit etwas Moos veredelt</p>
+<p><img src="images/Erz/3klein-15.jpg" alt="Moos"></p>
+<p><img src="images/Erz/4klein-0.jpg" alt="Seit"></p>
+<p>Das glitzernde Erz wurde mit Metallic-Anthrazit-Farbe hinzugefügt.</p>
+<p><img src="images/Erz/klein-5.jpg" alt="Anthrazit"></p>
+<p><img src="images/Erz/klein-10.jpg" alt="alles Erz"></p>
+<p><img src="images/Erz/klein-23.jpg" alt="oben"></p>
+<p>Für die Schaffelder wurden die Sechsecke zuerst grün grundiert und mit Grasstreu bestreut.</p>
+<p><img src="images/Schaf/1klein-7.jpg" alt="Streu"></p>
+<p>![]<img src="images/Schaf/1klein-12.jpg" alt="Schaf1"></p>
+<p><img src="images/Schaf/1klein-6.jpg" alt="Huhu"></p>
+<p>Anschließend werden Schafen der Firma Faller in Größe N hinzugefügt. Holzleim hält tatsächlich extrem fest! die Schafe fallen dann trotz der geringen Klebefläche nicht um.</p>
+<p><img src="images/Schaf/6klein-0.jpg" alt="Schaf2"></p>
+<p><img src="images/Schaf/6klein-2.jpg" alt="Schaf3"></p>
+<p><img src="images/Schaf/5klein-14.jpg" alt="Fallerschafe"></p>
+<p><img src="images/Schaf/klein-13.jpg" alt="seit"></p>
+<p><img src="images/Schaf/klein-24.jpg" alt="oben"></p>
+<h4 id="getreide">Getreide</h4>
+<p>Auch hier wird das Holz zuerst bemalt</p>
+<p><img src="images/Getreide/1klein-3.jpg" alt="BEmalung"></p>
+<p>Von Schilfähren werden Spitzen abgeschnitten</p>
+<p><img src="images/Getreide/2klein-0.jpg" alt="Schilf"></p>
+<p><img src="images/Getreide/2klein-1.jpg" alt="Getreide"></p>
+<p>und diese auf das Holz geklebt</p>
+<p><img src="images/Getreide/2klein-4.jpg" alt="fertig"></p>
+<p><img src="images/Getreide/2klein-7.jpg" alt="Getreide"></p>
+<p>Der weiße Leim wird natürlich noch transparent</p>
+<p><img src="images/Getreide/klein-11.jpg" alt="seit"></p>
+<p><img src="images/Getreide/klein-22.jpg" alt="oben"></p>
+<h4 id="wüste">Wüste</h4>
+<p>Die Wüste ist kein Meisterwerk geworden&hellip;. Einfach grundiert</p>
+<p><img src="images/Wuste/4klein-7.jpg" alt="Grundiert"></p>
+<p>&hellip; und Vogelsand drauf gestreut</p>
+<p><img src="images/Wuste/5klein-13.jpg" alt="Vogelsand"></p>
+<p>Nicht so sonderlich hübsch aber naja&hellip; ist ja bloß die Wüste.</p>
+<p><img src="images/Wuste/klein-17.jpg" alt="Wüste"></p>
+<h4 id="wasser">Wasser</h4>
+<p>Mit Wasser drumrum sieht es dann doch besser aus :)</p>
+<p>Die Flächen wurden nur angemalt. Einmal habe ich getestet, ob die Farbe etwas wässriger wird, wenn man sie mit Holzleim mischt, aber das hat nichts geändert, außer dass es etwas mehr Struktur gegeben hat.</p>
+<p><img src="images/Allgemeines/klein-7.jpg" alt="Wasser"></p>
+<h4 id="zahlenchips">Zahlenchips</h4>
+<p>Die Zahlenchips habe ich mit dem Holzbrenner beschrieben</p>
+<p><img src="images/Allgemeines/7klein-13.jpg" alt="Zahlenchips"></p>
+<p>Im Original sind 8 und 6 als sehr häufige Zahlen rot hervorgehoben. Das ist vor allem auch deswegen praktisch, da sich 6 und 9 durch die fehlende Orientierung der Chips sonst sehr ähnlich sehen.</p>
+<p>Also habe ich ebenfalls die Zahl versucht rot zu malen</p>
+<p><img src="images/Allgemeines/5klein-3.jpg" alt="rote 6"></p>
+<p>Ok&hellip; nicht schön&hellip;. also nächster Versuch: Das ganze Plättchen rot malen</p>
+<p><img src="images/Allgemeines/5klein-4.jpg" alt="rote 6"></p>
+<p>&hellip; auch nicht besser&hellip; Punkte drumherum! Das ist es!</p>
+<p><img src="images/Allgemeines/7klein-15.jpg" alt="Punkte"></p>
+<p>Viiiel besser! :)</p>
+<p><img src="images/Allgemeines/klein-8.jpg" alt="Alle Chips"></p>
+<h4 id="spielfiguren">Spielfiguren</h4>
+<p>Über die Spielfiguren habe ich mir viele Gedanken gemacht</p>
+<ul>
+<li>
+<p>die aus dem Originalspiel nehmen?  Ich habe nur die Plastikversion und das sieht nicht gut aus</p>
+</li>
+<li>
+<p>Figuren kaufen? Zu teuer</p>
+</li>
+<li>
+<p>Mit Steinen? Zu unregelmäßig. Dadurch sind evtl Städte und Dörfer nicht auseinander zu halten</p>
+</li>
+<li>
+<p>Bohnen? Jaaa! das sind quasi regelmäßige Steine!</p>
+</li>
+</ul>
+<p>Bohnen also! Rote Bohnen am besten. Die haben eine schöne Größe. Aber REWE macht mit seinem Angebot ein Strich durch die Rechnung: Nur Linsen und weiße Bohnen&hellip; warten, bis wieder welche da sind oder in einen anderen Laden gehen kommt nicht in Frage! Ich will doch loslegen! Also weiße Bohnen, obwohl die viel zu klein sind</p>
+<p><img src="images/Allgemeines/6klein-7.jpg" alt="Bohnen"></p>
+<p>Um die Größe zu kompensireen, werden einfach mehrere Bohnen zusammen geklebtB</p>
+<p><img src="images/Allgemeines/zusammen.jpg" alt="3 Bohnen"></p>
+<p>Für die Städte habe ich verschiedene Varianten getestet. Von Penis bis Haufen alles dabei!</p>
+<p><img src="images/Allgemeines/Stadte.jpg" alt="Tests"></p>
+<p>And the winner iiiiiiiis:</p>
+<p><img src="images/Allgemeines/Stadt.jpg" alt="Stadt"></p>
+<p>für die Straßen mussten geköpfte und zweigeteilte Streichhölzer herhalten. Angemalt sieht das ganze dann so aus:</p>
+<p><img src="images/Allgemeines/5klein-15.jpg" alt="Figuren"></p>
+<p><img src="images/Allgemeines/klein-20.jpg" alt="Alle Farben"></p>
+<h4 id="häfen">Häfen</h4>
+<p>Auch für die Häfen hatte ich zwei Versionen. Zuerst habe ich Icons mit dem Holzbrenner auf übrig gebliebene Zahlenchips gemalt.</p>
+<p><img src="images/Allgemeines/klein-1.jpg" alt="Hafenchips"></p>
+<p>Nicht ganz schlecht aber den Zahlenchips zu ähnlich. Das erschwert die Übersicht. Außerdem müssen die Runden Chips schon sehr genau zwischen dzwei Eckpunkte gelegt werden, um zu sehen, wozu sie gehören.</p>
+<p><img src="images/Allgemeines/klein-2.jpg" alt="Chips auf Feld"></p>
+<p>Am liebsten wäre es mir gewesen, die Sechsecke in Dreiecke zu teilen und diese dann mit dem Holzbrenner bemalen. Leider hatte ich davon aber keines mehr übrig. Also habe ich eben diese Dreiecke aus anderem Holz selbst geschnitten.</p>
+<p><img src="images/Allgemeines/klein-6.jpg" alt="Holz"></p>
+<p>Da das Holz aber nicht das gleiche ist, kann man es schlecht farblos lassen und mit dem Brenner lies sich auch nicht gut arbeiten&hellip; So wurden die Häfen weiß mit Edding beschrieben</p>
+<p><img src="images/Allgemeines/8klein-8.jpg" alt="hafen"></p>
+<p>Für die 2:1 Häfen wurde ich noch kreativer!</p>
+<p><img src="images/Allgemeines/8klein-9.jpg" alt="Häfen"></p>
+<p>So gefällt es mir!</p>
+<p><img src="images/Allgemeines/7klein-11.jpg" alt="Erz"></p>
+<h4 id="der-räuber">Der Räuber</h4>
+<p>Den Räuber habe ich aus FIMO geformt</p>
+<p>BILD RÄUBER</p>
+<h3 id="was-hat-es-gekostet">Was hat es gekostet?</h3>
+<p>Hier eine kleine Kostenauflistung:</p>
+<table>
+<thead>
+<tr>
+<th>Was?</th>
+<th>Wo?</th>
+<th>Kosten</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Holzsechsecke (50 Stück, 8cm)</td>
+<td>Bütic GmbH</td>
+<td>25€</td>
+</tr>
+<tr>
+<td>Holzchips (50 Stück, 2cm)</td>
+<td>Bütic GmbH</td>
+<td>4€</td>
+</tr>
+<tr>
+<td>Verschiedene Streusorten und Moos</td>
+<td>Ebay Kleinanzeigen</td>
+<td>12€</td>
+</tr>
+<tr>
+<td>Strukturpaste von Faller</td>
+<td>Modellbau Berlinski</td>
+<td>6€</td>
+</tr>
+<tr>
+<td>Schafe und Schäfer von Faller</td>
+<td>Modellbau Berlinski</td>
+<td>9,50€</td>
+</tr>
+<tr>
+<td>Weiße Bohnen</td>
+<td>REWE</td>
+<td>2€</td>
+</tr>
+<tr>
+<td>Holzleim</td>
+<td>Toom</td>
+<td>6€</td>
+</tr>
+<tr>
+<td>Farbe, Fimo, Streichhölzer, Zahnstocher</td>
+<td>hatte ich noch zu Hause</td>
+<td>?</td>
+</tr>
+<tr>
+<td>Steine, Schilf, getrocknete Blumen</td>
+<td>draußen</td>
+<td>kostenlos</td>
+</tr>
+<tr>
+<td>Versand</td>
+<td>verschieden</td>
+<td>6€</td>
+</tr>
+</tbody>
+</table>
+<p>Das ergibt rund <strong>70€</strong>. Hui&hellip; Das hätte ich besser nicht ausrechnen sollen&hellip; Jetzt fühle ich mich schlecht :D</p>
+<p>Wobei ich von dem Streu, den Bohnen, dem Holzleim und der Strukturpaste noch mehr als genug für 5 weite Spiele übrig hätte. Auch von den Holzchips habe ich noch etwa die Hälfte übrig.</p>
+<p>Es hat auf jedenfall meinen Coronatagen ein wenig BEdeutung gegeben, hat Spaß gemacht, und ist bestimmt auch toll zu bespielen! Jetzt müssen wir uns nur wieder treffen dürfen, damit das Spiel seiner Bestimmung gerecht werden kann!</p>
+
+        </section>
+      </div>
+    </div>
+  </div>  
+  <div class="container">
+    <div class="columns">
+      <div class="column has-text-right is-family-monospace is-centered-tablet-portrait">
+        :&nbsp;17 June 2019</div>
+    </div>
+  </div></section>
+<footer class="footer footer-dark">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <img src="/footer.svg" alt="">
+        
+      </div>
+      
+    <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+              <h3></h3>
+          </div>
+          <ul class="link-list">
+            <li><span class="icon"><i class="fa fa-cube"></i></span>
+                  
+                </a>
+              </li>
+            <li><a href="/tags/"><span class="icon"><i class="fa fa-tag"></i></span> 
+                
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+      
+      <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+              <h3></h3>
+          </div>
+          <ul class="link-list">
+            
+                         
+            
+            <li>
+              <a href="mailto:diana.kurti@yahoo.de" target="_blank">
+                <span class="icon"><i class="fa fa-envelope"></i></span>
+                
+                  My Email
+                
+              </a>
+            </li>
+            
+                   
+                   
+                   
+          </ul>
+        </div>
+      </div>
+      
+
+      
+      <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+              <h3></h3>
+          </div>
+          <ul class="link-list">
+            <li>
+              <a>
+                <span class="icon"><i class="fa fa-copyright"></i></span>
+                Diana Kurti - 2019, Obersaulheimerstr. 7, Saulheim
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+
+    </div>
+  </div>
+</footer>
+    <div id="backtotop"><a href="#"></a></div><div class="sidebar">
+  <div class="sidebar-header"><img src="/sidebar.svg" alt="">
+    
+    <a class="sidebar-close" href="javascript:void(0);">
+      <i data-feather="x"></i>
+    </a>
+  </div>
+  <div class="inner">
+    <ul class="sidebar-menu">
+      <li class="no-children"><a href="/tags/"><div class="columns">
+              <table width="100%">  
+                <tr>
+                  <td class="">
+                    <span class="icon"><i class="fa fa-cubes"></i></span>
+                    
+                  </td>
+                  <td class="has-text-right" >
+                      
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </a>
+      <li class="no-children">
+          <a href="/tags/download">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>Download</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">7</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/n%c3%a4hen">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>nähen</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">7</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/baby">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>Baby</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">6</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/excel">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>Excel</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">3</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/schule">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>Schule</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">3</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/spiel">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>Spiel</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">3</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/sport">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>Sport</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">3</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/stoffwindeln">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>Stoffwindeln</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">3</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/weihnachten">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>Weihnachten</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li></ul>
+  </div>
+</div>
+<script src="/js/jquery-2.2.4.893e90f6230962e42231635df650f20544ad22affc3ee396df768eaa6bc5a6a2.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="></script>
+<script src="/js/feather.4.22.0.1ab07abeb9975f283f6b5f29451981be680fbf77ea778f991d457511d210476a.js" integrity="sha256-GrB6vrmXXyg/a18pRRmBvmgPv3fqd4&#43;ZHUV1EdIQR2o="></script>
+<script src="/js/modernizr-2.8.3.7dfc3ef73c1284c7aff3c5cdac3812d212c8b899037d7860c8ba20a1defb9a7f.js" integrity="sha256-ffw&#43;9zwShMev88XNrDgS0hLIuJkDfXhgyLogod77mn8="></script>
+<script src="/js/refresh.44d8ed294d4f02a04f63b0cf8d5a762be9f9302b96830c93af32d51c6f551983.js" integrity="sha256-RNjtKU1PAqBPY7DPjVp2K&#43;n5MCuWgwyTrzLVHG9VGYM="></script>
+
+<script>
+  window.MathJax = {
+    loader: {
+      load: ['core', 'input/tex-base', 'output/chtml'],  
+      source: {
+        'core': '\/js\/mathjax\/core.d48fedf25c74c54fa6bf79646de92b02155872bdc4f5f7d0bbfc662523d8b4f5.js',
+        'input/tex-base': '\/js\/mathjax\/tex-base.1b68b8741dfc54e8f7222f88bea8ffcfc57ac54b2a2d8f4edf6800aa44d49441.js',
+        'output/chtml': '\/js\/mathjax\/chtml.926cd166e0f8c1f8a566a718d60c9c58a2b7142b156d30d5f02cec7c3b0ad60a.js',
+        'output/chtml/fonts/tex': '\/js\/mathjax\/tex_out.b8b2bb939c0dae84bf1390bfe6d32af13e83f647cdac01d544d2a7a517477e9d.js'
+      },
+    },
+    chtml: {
+      fontURL: '/fonts' 
+    },
+  };
+</script>
+<script src="/js/mathjax/startup.234a2513e6bdbc1eee06ca19abceca30fe4034e82afb373c08274c1ba2feb1a6.js" integrity="sha256-I0olE&#43;a9vB7uBsoZq87KMP5ANOgq&#43;zc8CCdMG6L&#43;saY="></script>
+
+</body>
+</html>
